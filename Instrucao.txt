@@ -1,0 +1,10 @@
+git init
+git config user.name "name"
+git config user.email "email"
+git add README.md
+git commit -m "first commit"
+
+# Depois disso
+
+git remote add origin "https://..."
+git push -u origin master
